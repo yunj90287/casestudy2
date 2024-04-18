@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>guess</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div id="main">
+			<header>
+				<div class="top">
+					<h1><a href=""><img src="./images/logo_black.svg" alt="logo"></a></h1>
+					<div class="utils">
+						<a href="" id="search"><img src="./images/search_white.png" alt="search white"></a>
+						<ul>
+							<li><a href="">LOGIN</a></li>
+							<li><a href="">JOIN</a></li>
+							<li><a href="">MY PAGE</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="bottom">
+					<div class="gnb_wrap">
+						<nav id="gnb">
+							<ul class="depth_one">
+								<li><a href="">NEW</a></li>
+								<li><a href="">BEST</a></li>
+								<li>
+									<a href="">WOMEN</a>
+									<div class="depth_two">
+										<div class="depth_list">
+											<span>카테고리</span>
+											<ul>	
+												<li><a href="">아우터</a></li>
+												<li><a href="">티셔츠</a></li>
+												<li><a href="">셔츠</a></li>
+												<li><a href="">스웨터</a></li>
+												<li><a href="">드레스</a></li>
+												<li><a href="">팬츠</a></li>
+												<li><a href="">스커트</a></li>
+												<li><a href="">데님</a></li>
+												<li><a href="">액세서리</a></li>
+												<li><a href="">가방</a></li>
+											</ul>	
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">MEN</a>
+									<div class="depth_two">
+										<div class="depth_list">
+											<span>카테고리</span>
+											<ul>
+												<li><a href="">아우터</a></li>
+												<li><a href="">티셔츠</a></li>
+												<li><a href="">셔츠</a></li>
+												<li><a href="">스웨터</a></li>
+												<li><a href="">팬츠</a></li>
+												<li><a href="">데님</a></li>
+												<li><a href="">액세서리</a></li>
+												<li><a href="">가방</a></li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">COLLECTION</a>
+									<div class="depth_two">
+										<div class="depth_list">
+											<span>컬렉션</span>
+											<ul>
+												<li><a href="">23'FW 수지</a></li>
+												<li><a href="">23'FW 송강</a></li>
+												<li><a href="">POP 컬렉션</a></li>
+												<li><a href="">게스 X 밤켈</a></li>
+												<li><a href="">게스 오리지널스</a></li>
+												<li><a href="">게스 마르시아노</a></li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">DENIM</a>
+									<div  class="depth_two">
+										<div class="depth_list">
+											<span>여성메인</span>
+											<ul>
+												<li><a href="">스트레이트</a></li>
+												<li><a href="">부츠컷</a></li>
+												<li><a href="">와이드</a></li>
+												<li><a href="">보이프렌드</a></li>
+												<li><a href="">맘핏</a></li>
+												<li><a href="">스키니</a></li>
+												<li><a href="">쇼츠</a></li>
+												<li><a href="">스커트</a></li>
+												<li><a href="">원피스</a></li>
+												<li><a href="">점프수트</a></li>
+											</ul>
+										</div>
+										<div class="depth_list">
+											<span>남성메인</span>
+											<ul>
+												<li><a href="">스트레이트</a></li>
+												<li><a href="">와이드</a></li>
+												<li><a href="">테이퍼드</a></li>
+												<li><a href="">부츠컷</a></li>
+												<li><a href="">스키니</a></li>
+												<li><a href="">쇼츠</a></li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="">ORIGINALS</a>
+									<div class="depth_two">
+										<div class="depth_list">
+											<span>여성메인</span>
+											<ul>
+												<li><a href="">아우터</a></li>
+												<li><a href="">티셔츠</a></li>
+												<li><a href="">셔츠</a></li>
+												<li><a href="">스웨터</a></li>
+												<li><a href="">드레스</a></li>
+												<li><a href="">바지</a></li>
+												<li><a href="">스커트</a></li>
+												<li><a href="">데님</a></li>
+												<li><a href="">액세서리</a></li>
+												<li><a href="">가방</a></li>
+											</ul>
+										</div>
+										<div class="depth_list">
+											<span>남성메인</span>
+											<ul>
+												<li><a href="">아우터</a></li>
+												<li><a href="">티셔츠</a></li>
+												<li><a href="">셔츠</a></li>
+												<li><a href="">스웨터</a></li>
+												<li><a href="">바지</a></li>
+												<li><a href="">데님</a></li>
+												<li><a href="">액세서리</a></li>
+												<li><a href="">가방</a></li>
+											</ul>
+										</div>
+									</div>	
+								</li>
+								<li>
+									<a href="">PROMOTION</a>
+									<div class="depth_two">
+										<div class="depth_list">
+											<ul>
+												<li><a href="">프로모션</a></li>
+											</ul>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="menu_bg"></div>	
+				</div>			
+			</header>
+			<div class="main_slider">
+				<div class="swiper-container mainSwiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<a href="">
+								<img src="./images/slider01.jpg" alt="slider1">
+								<div class="desc">
+									<strong>CLEARANCE<b></b>UP TO 50% OFF</strong>
+									<span>최대 50% 혜택으로 준비된<b></b>다양한 상품들을 바로 만나보세요.</span>
+									<span class="more">View More +</span>
+								</div>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="">
+								<img src="./images/slider02.jpg" alt="slider2">
+								<div class="desc">
+									<strong>WARM TOUCH DENIM</strong>
+									<span>편안하게, 따뜻하게, 부드럽게, 게스 웜터치 데님</span>
+									<span class="more">View More +</span>
+								</div>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="">
+								<img src="./images/slider03.jpg" alt="slider3">
+								<div class="desc">
+									<strong>SUZY FEATHER LIGHT</strong>
+									<span>23' FEATHER LIGHT OUTERWEAR COLLECTION</span>
+									<span class="more">View More +</span>
+								</div>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="">
+								<img src="./images/slider04.jpg" alt="slider4">
+								<div class="desc">
+									<strong>SONG KANG FEATHER LIGHT</strong>
+									<span>23' FEATHER LIGHT OUTERWEAR COLLECTION</span>
+									<span class="more">View More +</span>
+								</div>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="">
+								<img src="./images/slider05.jpg" alt="slider5">
+								<div class="desc">
+									<strong>2023 WINTER COLLECTION</strong>
+									<span>23' GUESS WINTER SEASON COLLECTION</span>
+									<span class="more">View More +</span>
+								</div>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="">
+								<img src="./images/slider06.jpg" alt="slider6">
+								<div class="desc">
+									<strong>My Days in Denim</strong>
+									<span>23'FW SUZY COLLECTION</span>
+									<span class="more">View More +</span>
+								</div>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="">
+								<img src="./images/slider07.jpg" alt="slider7">
+								<div class="desc">
+									<strong>My Days in Denim</strong>
+									<span>23'FW SONGKANG COLLECTION</span>
+									<span class="more">View More +</span>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-scrollbar"></div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+		</div>
+		<div id="sub">
+			<section class="sec1">
+				<a href="" class="banner">
+					<img src="./images/test.jpg" alt="sub banner1">
+				</a>
+				<a href="" class="desc">
+					<div class="inner">
+						<h4>Feather Light</h4>
+						<span>Ultra-lightweight</span>
+						<p>Warming up your winter season</p>
+						<span class="more">view more</span>
+					</div>
+				</a>
+			</section>
+			<section class="sec2">
+				<a href="" class="desc">
+					<div class="inner">
+						<h4>Classic Jean</h4>
+						<span>Valuable denim</span>
+						<p>
+							A basic and stylish fit that<b></b> 
+							you will want to keep for a long time
+						</p>
+						<span class="more">view more</span>
+					</div>
+				</a>
+				<a href="" class="banner">
+					<img src="./images/sub_banner2.jpg" alt="sub banner2">
+				</a>
+			</section>
+			<section class="sec3">
+				<div class="left">
+					<a href="" class="banner">
+						<img src="./images/sub_banner3.jpg" alt="sub banner3">
+						<div class="desc">
+							<span>23'WINTER SUZY LOOKBOOK</span>
+							<h4>lookbook</h4>
+							<span class="more">view more</span>
+						</div>
+					</a>
+					<a href="" class="txt_area">
+						<img src="./images/sub_banner5.jpg" alt="sub_banner5">
+						<div class="desc">
+							<h4>new</h4>
+							<span>new in this week</span>
+							<span class="more">view more</span>
+						</div>
+					</a>
+				</div>
+				<div class="right">
+					<a href="" class="txt_area">
+						<div class="desc">
+							<h4>sale</h4>
+							<span>다양하고 특별한 할인 혜택을 만나보세요.</span>
+							<span class="more">view more</span>
+						</div>
+					</a>
+					<a href="" class="banner">
+						<img src="./images/sub_banner4.jpg" alt="sub banner4">
+						<div class="desc">
+							<span>23'WINTER SONGKANG COLLECTION</span>
+							<h4>collection</h4>
+							<span class="more">view more</span>
+						</div>
+					</a>
+				</div>
+			</section>
+		</div>
+		<footer>
+			<div class="txt_area">
+				<div class="desc">
+					<p class="address">게스홀딩스코리아 유한회사대표이사 : PARK JAMES YUNYUNG(박윤용) 서울특별시 강남구 테헤란로 534, 글라스타워빌딩 28층</p>
+					<p class="copyright">COPYRIGHT ⒞ GUESSKOREA. ALL RIGHTS RESERVED.</p>
+				</div>
+				<div class="family_site">
+					<ul>
+						<li>
+							<a href=""><img src="./images/family_icon.svg" alt="family icon"></a>
+						</li>
+						<li>
+							<a href=""><img src="./images/facebook.png" alt="facebook"></a>
+						</li>
+						<li>
+							<a href=""><img src="./images/blog.png" alt="blog"></a>
+						</li>
+						<li>
+							<a href=""><img src="./images/kakao.png" alt="kakao"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
